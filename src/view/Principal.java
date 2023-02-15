@@ -19,8 +19,9 @@ public class Principal {
 			break;
 			//Chamada do Exercício 2
 			case 2:
-			int Divid = Integer.parseInt(JOptionPane.showInputDialog("Digite o valor para o Dividendo: "));
-			int Divis = Integer.parseInt(JOptionPane.showInputDialog("Digite o valor para o Divisor: "));
+			JOptionPane.showMessageDialog(null, "Teste será feito com os Números 13 (Dividendo) e 5 (Divisor)");
+			int Divid = 13;
+			int Divis = 5;
 			JOptionPane.showMessageDialog(null, "Resultado ==> "+op.Ex2(Divid, Divis));
 			break;
 			//Chamada do Exercício 3
