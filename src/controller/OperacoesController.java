@@ -5,7 +5,6 @@ public class OperacoesController {
 	public OperacoesController() {
 		super();
 	}
-	
 	//Exercício 1 Recursivo
 	public int Ex1(int x,int y) {
 	//Condição de parada
@@ -15,7 +14,6 @@ public class OperacoesController {
 			return x + Ex1(x, y-1);
 		}
 	}
-	
 	//Exercício 2 Recursivo
 	public int Ex2(int a, int b) {
 	//Condição de parada 
@@ -25,7 +23,6 @@ public class OperacoesController {
 			return Ex2(a-b, b);
 		}
 	}
-	
 	//Exercício 3 Recursivo
 	public int Ex3(int[] V, int x) {
 	//Condição de parada
@@ -36,6 +33,4 @@ public class OperacoesController {
 		}
 		return Ex3(V, x - 1);
 	}
-	
-
 }

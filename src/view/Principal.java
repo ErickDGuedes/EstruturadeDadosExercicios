@@ -39,8 +39,5 @@ public class Principal {
 			default:JOptionPane.showMessageDialog(null, "Escolha uma opção válida");
 			}
 		}
-		
-
 	}
-
 }
